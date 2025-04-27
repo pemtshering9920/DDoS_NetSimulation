@@ -37,7 +37,7 @@ pip install tabulate
 Run a simple simulation:
 
 ```bash
-python run_simulation.py --target https://example.com --duration 30 --mode analyze
+python3 run_simulation.py --target https://example.com --duration 30 --mode analyze
 ```
 
 ### Command Line Arguments
@@ -63,7 +63,7 @@ python run_simulation.py --target https://example.com --duration 30 --mode analy
 To compare different attack vectors and traffic patterns:
 
 ```bash
-python compare_attack_vectors.py --target https://example.com --duration 20
+python3 compare_attack_vectors.py --target https://example.com --duration 20
 ```
 
 This will run a series of tests with different configurations and provide a comparative analysis.
